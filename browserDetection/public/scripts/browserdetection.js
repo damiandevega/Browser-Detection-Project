@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			
 			// double check browser is correct
 			if (browserName == "Google Chrome" && navigator.browserSpecs.name == "Chrome") { 
-				version = navigator.browserSpecs.version 
+				version = navigator.browserSpecs.version;
 			};
 			
 		} else if (typeof InstallTrigger !== 'undefined') {  // Firefox 1.0+
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 			// double check browser is correct
 			if (browserName == "Mozilla Firefox" && navigator.browserSpecs.name == "Firefox") { 
-				version = navigator.browserSpecs.version 
+				version = navigator.browserSpecs.version;
 			};
 			
 		} else if (Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0 || window.safari !== undefined) {  // At least Safari 3+: "[object HTMLElementConstructor]"
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 			// double check browser is correct
 			if (browserName == "Safari" && navigator.browserSpecs.name == "Safari") { 
-				version = navigator.browserSpecs.version 
+				version = navigator.browserSpecs.version;
 			};
 			
 		} else if ((/*@cc_on!@*/false) || (document.documentMode)) {  // Internet Explorer 6-11
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 			// double check browser is correct
 			if (browserName == "Internet Explorer" && navigator.browserSpecs.name == "IE") { 
-				version = navigator.browserSpecs.version 
+				version = navigator.browserSpecs.version;
 			};
 				
 		} else if ((window.opr && opr.addons) || window.opera || (navigator.userAgent.indexOf(' OPR/') >= 0)) {  // Opera 8.0+
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 			// double check browser is correct
 			if (browserName == "Opera" && navigator.browserSpecs.name == "Opera") { 
-				version = navigator.browserSpecs.version 
+				version = navigator.browserSpecs.version;
 			};
 				
 		} else if (!(document.documentMode) && window.StyleMedia) {  // Edge 20+
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 			// double check browser is correct
 			if (browserName == "Microsoft Edge" && navigator.browserSpecs.name == "Edge") { 
-				version = navigator.browserSpecs.version 
+				version = navigator.browserSpecs.version;
 			};
 			
 		}					
